@@ -6,10 +6,14 @@ const appVue = new Vue({
   data: {
     // varie chiavi necessarie all'app
     message: "Ciao! Sono stato stampato da Vue.js",
+    immage: "https://picsum.photos/200/300",
   },
 
   // Conterrà una serie di funzioni
   methods: {
     // funzioni che useremo nell'app
+    createImage: function () {
+      window.location.reload();
+    },
   },
 });
