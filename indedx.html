@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veu Hello</title>
+    <title>Vue Hello</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.js'
+        integrity='sha512-pSyYzOKCLD2xoGM1GwkeHbdXgMRVsSqQaaUoHskx/HF09POwvow2VfVEdARIYwdeFLbu+2FCOTRYuiyeGxXkEg=='
+        crossorigin='anonymous'></script>
 </head>
 
 <body>
+    <main>
+        <div id="app">
+            <h1 v-text="message"></h1>
+        </div>
+
+    </main>
     <script src="main.js"></script>
 </body>
 
